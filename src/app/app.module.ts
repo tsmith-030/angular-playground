@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeroPageComponent } from './hero-page/hero-page.component';
+import { NavButtonComponent } from './nav-button/nav-button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroPageComponent,
+    NavButtonComponent
   ],
   imports: [
     BrowserModule,

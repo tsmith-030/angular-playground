@@ -1,0 +1,18 @@
+@import '../../variables';
+
+.nav-btn {
+    color: $primary-font-color;
+    background-color: transparent;
+    border-radius: 4px;
+
+    &:hover {
+        color: purple;
+        background-color: $primary-font-color;  
+    }
+}
+
+.nav-btn-icon {
+    height: 10px;
+    width: 10px;
+    color: $primary-font-color;
+}
